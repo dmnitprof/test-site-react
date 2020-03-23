@@ -1,0 +1,58 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+// <-- Home page -->
+
+ 
+// <-- Navbar --> //
+.navbar-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white!important;
+  box-shadow: 0 10px 10px rgba(83, 78, 78, 0.5);
+
+
+  .navbar-brand {
+   margin-right: 10rem;
+   text-transform: uppercase;
+   font-weight: bold;
+   flex-grow: unset;
+  }
+
+  .nav-link {
+    margin-right: 3rem;
+
+  }
+ 
+.nav-link.active {
+  color: gold!important;
+  border-bottom: 1px solid gold;
+
+}
+
+  a:hover {
+    color: white !important;
+    border-bottom: 1px solid white;
+  }
+
+  }
+
+  
+
+
+
