@@ -5,7 +5,7 @@ import {About} from './pages/About'
 import {Contact} from './pages/Contact'
 import {Navbar} from './components/Navbar'
 import { Footer } from './components/Footer'
-import { Content } from './components/Content'
+
 
 function App() {
   return (
@@ -20,8 +20,7 @@ function App() {
         <Route path={'/contacts'} component={Contact}/>
       </Switch>
     </div>
-    <Content />
-
+    
     <Footer />
   </BrowserRouter>
   

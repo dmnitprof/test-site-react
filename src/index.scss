@@ -16,15 +16,19 @@ code {
 
 
 // <-- Home page -->
-
+.home__main {
+  margin-top: 90px !important;
+}
  
 // <-- Navbar --> //
+
 .navbar-light {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white!important;
   box-shadow: 0 10px 10px rgba(83, 78, 78, 0.5);
+ 
 
 
   .navbar-brand {

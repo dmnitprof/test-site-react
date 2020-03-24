@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const About = () => (
-  <div className="jumbotron text-center">
+  <div className="container jumbotron text-center home__main">
     <div className="container">
       <h1 className="display-4">О Нас</h1>
       <p className="lead">
